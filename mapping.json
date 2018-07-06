@@ -6,16 +6,15 @@
   "is_grouped_by_tag": true,
   "version_list": ["default"],
   "organizations": [{
-    "name": "{product_name}",
+    "name": "testnew",
     "index": "index.md",
     "default_toc_title": "Getting Started",
     "version": "default",
     "services": [{
-      "toc_title": "{service_toc_title}",
-      "url_group": "{service_url}",
-      "service_index": "{service_index_path}",
+      "toc_title": "petstore",
+      "url_group": "petstore",
       "swagger_files": [{
-        "source": "{local_swagger_src_folder}/{swagger_path}"
+        "source": "test/petstore.json"
       }]
     }]
   }]
